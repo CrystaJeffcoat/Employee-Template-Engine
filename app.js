@@ -75,9 +75,9 @@ async function getEmployee() {
             });
         } 
         else {
-            console.log("End of session")
-            console.log(allEmployees)
-            render(allEmployees);
+            console.log("End of session");
+            allEmployees = render(allEmployees);
+            renderEmployeeInfo();
         }
     })
 }
@@ -111,6 +111,14 @@ async function getEngineer() {
         let newEmp = new Engineer(answers.name, answers.id, answers.email, answers.github)
         allEmployees.push(newEmp);
         getEmployee();
+    })
+}
+
+function renderEmployeeInfo() {
+    fs.writeFile(outputPath, allEmployees, function(err){
+        if(err) {
+            console.log(err)
+        }
     })
 }
 
