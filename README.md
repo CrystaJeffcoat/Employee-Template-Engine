@@ -15,4 +15,4 @@ When you are done, the templates will be created and you can view the html file 
 
 ## Demo
 
-(demo.gif)
+![til](demo.gif)
