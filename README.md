@@ -15,4 +15,4 @@ When you are done, the templates will be created and you can view the html file 
 
 ## Demo
 
-(<https://drive.google.com/file/d/1uB7P8y_B_3tknbyqq3E9KUnKqiELJAkg/preview>)
+[<https://drive.google.com/file/d/1uB7P8y_B_3tknbyqq3E9KUnKqiELJAkg/preview>]
